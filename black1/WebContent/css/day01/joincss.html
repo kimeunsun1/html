@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Black 회원가입</title>
+<link rel="stylesheet" type="text/css" href="/black1/resources/css/day01/joincss.css?ver=2">
+</head>
+<body align="center">
+<div id="allfrm">
+	<div id="header">
+		<h1 style="margin: 15px;">Black 회원가입</h1>
+	</div>
+	<div style="padding-top: 20px;">
+		<form id="frm">
+			<div id="info">
+				<label for="name">회원이름 :</label>
+				<input type="text" name="name" id="name">
+			</div>
+			<div id="info">
+				<label for="id">아 이 디 :</label>
+				<input type="text" name="id" id="id">
+				<button type="button" id="idck">id check</button>
+				<span id="idspan">* 사용 가능한 아이디입니다.</span>
+			</div>
+			<div id="info">
+				<label for="pw">비밀번호 :</label>
+				<input type="password" name="pw" id="pw">
+			</div>
+			<div id="info">
+				<label for="pwck">pw check :</label>
+				<input type="text" name="pwck" id="pwck">
+			</div>
+			<div id="info">
+				<label for= "mail">회원메일 :</label>
+				<input type="text" name="mail" id="mail">
+			</div>
+			<div id="info">
+				<label for="tel">전화번호 :</label>
+				<input type="text" name="tel" id="tel">
+			</div>
+			
+			<div id="info">
+				<label for="gen">회원성별 :</label>
+				<div style="margin-left: 50px;">
+					<input type="radio" name="gen" id="mgen" value="M"><span style=" float: left;">남자</span>
+					<input type="radio" name="gen" id="fgen" value="F"><span style=" float: left;">여자</span>
+				</div>
+			</div>
+			<br>
+			<div style="padding-bottom: 10px;">
+				<label for="avt">아바타 :</label>
+				<div style="float: left;">
+					<div style="float: left;">
+						<div class="avtdiv1">
+							<img src="/black1/image/img/img_avatar1.png" class="avtimg"><br>
+							<input type="radio" id="avt1" class="avtinput" value="avt1">
+						</div>
+						<div class="avtdiv2">
+							<img src="/black1/image/img/img_avatar2.png" class="avtimg"><br>
+							<input type="radio" id="avt2" class="avtinput" value="avt2">
+						</div>
+						<div class="avtdiv2">
+							<img src="/black1/image/img/img_avatar3.png" class="avtimg"><br>
+							<input type="radio" id="avt3" class="avtinput" value="avt3">
+						</div>
+					</div>
+					<br>
+					<div style="float: left;">
+						<div class="avtdiv1">
+							<img src="/black1/image/img/img_avatar4.png" class="avtimg"><br>
+							<input type="radio" id="avt4" class="avtinput" value="avt4">
+						</div>
+						<div class="avtdiv2">
+							<img src="/black1/image/img/img_avatar5.png" class="avtimg"><br>
+							<input type="radio" id="avt5" class="avtinput" value="avt5">
+						</div>
+						<div class="avtdiv2">
+							<img src="/black1/image/img/img_avatar6.png" class="avtimg"><br>
+							<input type="radio" id="avt6" class="avtinput" value="avt6">
+						</div>
+					</div>
+				</div>
+			</div>
+			
+		</form>
+		<div id="btndiv" class="btndiv">
+			<input type="reset" id="rbtn" value="reset">
+			<button type="button" onclick="location.href='../index.html';" id="hbtn">home</button>
+			<button type="submit" id="jbtn">join</button>
+		</div>
+	</div>
+</div>
+</body>
+</html>

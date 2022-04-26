@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+	<div>
+		<div id="pdan"><span id="n1"></span> * <span id="n2"></span> = <span id="n3"></span></div>
+	</div>
+<script type="text/javascript">
+	document.getElementById('pdan').innerHTML = function() {
+		var no1, no2;
+		var result;
+		for(var i = 2; i < 10; i++){
+			for(var j = 1; j < 10; j++){
+				no1 = i;
+				no2 = j;
+				result = i * j;
+			}
+		}
+		document.getElementById('n1').innerHTML = no1;
+		document.getElementById('n2').innerHTML = no2;
+		document.getElementById('n3').innerHTML = result;
+	};
+</script>
+</body>
+</html>
